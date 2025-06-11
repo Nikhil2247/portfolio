@@ -992,7 +992,7 @@ export default function Portfolio() {
 
       {/* About Section */}
       <section id="about" className="py-20 relative">
-        <div className="container mx-auto px-16">
+        <div className="container mx-auto lg:px-16 px-5">
           <motion.h2
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -1162,7 +1162,7 @@ export default function Portfolio() {
 
       {/* Skills Section */}
       <section id="skills" className="py-20 relative">
-        <div className="container mx-auto px-16">
+        <div className="container mx-auto lg:px-16 px-5">
           <motion.h2
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -1599,7 +1599,7 @@ export default function Portfolio() {
 
       {/* Projects Section */}
       <section id="projects" className="py-20 relative">
-        <div className="container mx-auto px-16">
+        <div className="container mx-auto lg:px-16 px-5">
           <motion.h2
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
